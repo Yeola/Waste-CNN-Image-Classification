@@ -1,4 +1,5 @@
 # Waste-CNN-Image-Classification
+This project leverages the use of CNN model techniques to predict the categories of waste products  based on the image data shown to it.
 
 ## Table Of Contents
 
@@ -10,8 +11,8 @@
 - [Model Architecture](#model-architecture)
 - [Training Configuration](#training-configuration)
 - [Model Performance](#model-performance)
-- [Model Insights and analysis](#model-insights-and-analysis)
-- [limitation](#limitation)
+- [Model Insights and Analysis](#model-insights-and-analysis)
+- [Limitations](#limitations)
 - [Mitigation Strategies](#mitigation-strategies)
   
 ### Project Overview
@@ -89,11 +90,11 @@ model.add(Dense(1, activation='sigmoid'))
 - Epochs: Longer training(100 epochs)
 - Batch size: 32
 - Data Augmentation:
-- Rescaling
-- Rotation
-- Width and height shifts
-- Zoom
-- Horizontal flipping
+  - Rescaling
+  - Rotation
+  - Width and height shifts
+  - Zoom
+  - Horizontal flipping
 
 ### Model Performance
 
